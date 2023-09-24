@@ -124,7 +124,7 @@ padding: 20px;
 }
 .map{
 }
-@media screen and  (min-width:300px) and (max-width:570px){
+@media screen and  (min-width:200px) and (max-width:570px){
     
     .green{
         
