@@ -124,45 +124,59 @@ padding: 20px;
 }
 .map{
 }
-@media screen and (max-width:570px){
+@media screen and  (min-width:300px) and (max-width:570px){
     
     .green{
         
    }
     .name{
     font-size:10px ;
-        display: flex;
-        margin-left: 40%;
+       
         
+        margin-left: 30%;
+        top:40px
       
     }
     .name2{
        
-     font-size: 10px
-        
+     font-size: 10px;
+        top:40px
         
     }
     .but{
-        margin-top: 10px;
+        margin-top: 13px;
        margin-left: -40px ;
-        padding:0;
+       width: 65px;
+           height:18px;
+        font-size: 10px;
     }
      
 
     .task2{
-        height: 129vh;
-
+        height: 300vh;
+width: 100%;
         
     }
+    .img{
+        
+        display: flex;
+        flex-direction: column
+    }
     .img1{
-        height:500px
+        height:400px;
+            width:90%;
+        margin: 5%;
     }
     .img2{
         
-        height: 500px
+        height: 400px;
+            width:90%;
+        margin: 5%;
     }
     .img3{
-        height: 500px
+        height: 400px;
+            width:90%;
+        margin: 5%;
     }
     .contact{
         
@@ -177,4 +191,38 @@ padding: 20px;
 
 margin-top: 10%;
     }
+    textarea{
+        width: 90%;
     }
+    .footer{
+        display: flex;
+        flex-direction: column
+    }
+    .mail{
+
+    position: relative;
+    top: 10px;
+    }
+    .social{
+float: left;
+margin-top: 15px;
+    
+    }
+    .nav2{
+        display: flex;
+        flex-direction: column;
+margin-left: 6px;
+    }
+    .green{
+        position: relative;
+        top: 0;
+        right: 110px;
+margin-top: 40px;
+margin-left: 110px;
+
+    }
+.nav2 button{
+width: 60px;
+font-size: 10px;
+}
+}
